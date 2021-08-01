@@ -239,7 +239,7 @@ input {
   z-index: 1000;
 }
 
-/* ** Order Details  */
+/** Order Details  */
 .order-details {
   display: flex;
   flex-direction: column;
@@ -265,4 +265,23 @@ input {
 
 .success-message {
   color: green;
+}
+
+/** Orders */
+
+.orders {
+  width: 100%;
+  padding: 10px;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+td {
+  padding: 5px;
+}
+
+th {
+  text-align: left;
 }
