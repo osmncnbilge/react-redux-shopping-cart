@@ -45,11 +45,7 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "engines": {
-      "node": "12.4.0",
-      "npm": "6.9.0"
-    }
+    ]
   },
   "devDependencies": {
     "redux-devtools-extension": "^2.13.9"
